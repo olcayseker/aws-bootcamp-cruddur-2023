@@ -9,7 +9,7 @@
         "Subscribers": {
             "0": {
                 "SubscriptionType": "EMAIL",
-                "Address": "oseker@gmail.com"
+                "Address": "<email>"
             }
         }
     },
@@ -23,7 +23,7 @@
         "Subscribers": {
             "0": {
                 "SubscriptionType": "EMAIL",
-                "Address": "oseker@gmail.com"
+                "Address": "<email>"
             }
         }
     },
@@ -37,7 +37,7 @@
         "Subscribers": {
             "0": {
                 "SubscriptionType": "EMAIL",
-                "Address": "oseker@gmail.com"
+                "Address": "<email>"
             }
         }
     }

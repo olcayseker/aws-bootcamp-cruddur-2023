@@ -88,3 +88,16 @@ docker push olcayseker/bootcamp:backend-flask-1-0
 ```
 
 ![w1-dockerhub](assets/w1-dockerhub.png)
+
+### Docker compose Healtcheck
+
+I added those instruction in docker compose file for frontend aplication basic health check.
+
+
+```   healthcheck:
+      test: curl --fail http://localhost:3000 || exit 1
+      interval: 60s
+      retries: 5
+      start_period: 20s
+      timeout: 10s
+      ```

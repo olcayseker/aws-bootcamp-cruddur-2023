@@ -55,3 +55,10 @@ Creating docker compose file was a bit compelling. For my local environment it w
 
 I added docker extension to gitpod.yaml and it broke completely the workspace as well as VScode it self.
 
+I followed instructions to ensure that postgres is working.
+
+![lw1-postgres](assets/w1-postgres.png)
+
+ ## Homeworks Challenges
+
+ 

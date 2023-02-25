@@ -51,5 +51,7 @@ docker build -t frontend-react-js ./frontend-react-js
 
 ### Create a docker-compose file
 
-Creating docker compose file was a bit compelling. For my local environemnt it was relatively easy but for Gitpod, i need to search for adapting URLs.
+Creating docker compose file was a bit compelling. For my local environment it was relatively easy but for Gitpod, i need to search for adapting URLs.
+
+I added docker extension to gitpod.yaml and it broke completely the workspace as well as VScode it self.
 

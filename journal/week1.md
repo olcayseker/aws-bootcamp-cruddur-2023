@@ -46,3 +46,10 @@ Using the command below, I created the frontend application image. There were no
 ```sh
 docker build -t frontend-react-js ./frontend-react-js
 ```
+
+## Multiple Containers
+
+### Create a docker-compose file
+
+Creating docker compose file was a bit compelling. For my local environemnt it was relatively easy but for Gitpod, i need to search for adapting URLs.
+

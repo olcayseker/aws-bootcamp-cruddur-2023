@@ -61,4 +61,30 @@ I followed instructions to ensure that postgres is working.
 
  ## Homeworks Challenges
 
+ ### External Script
+
+ I added backend-flask/run.sh shell file which basically runs python3 command
+ I mount related script file with volume command and run with the command below
+
+ ```sh
+ docker run --rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*'  -v $(pwd)/backend-flask/run.sh:/backend-flask/run.sh  backend-flask bash /backend-flask/run.sh
+ ```
+
+ Backend application run as usual
+
+![w1-external-script](assets/w1-external-script.png)
  
+### Push and Tag Image to Dockerhub
+
+Tag container for docker repo
+
+```sh
+docker tag backend-flask olcayseker/bootcamp:backend-flask-1-0
+```
+
+Push backend container to dockerhub.
+```sh
+docker push olcayseker/bootcamp:backend-flask-1-0
+```
+
+![w1-dockerhub](assets/w1-dockerhub.png)
